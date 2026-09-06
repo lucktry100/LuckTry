@@ -147,3 +147,48 @@ h1{
 @media (max-width:380px){
   h1{font-size:23px;}
 }
+
+
+
+
+
+.important-link{
+  margin-top:32px;
+  text-align:center;
+}
+
+.important-label{
+  font-size:13px;
+  color:var(--text-1);
+  margin:0 0 18px;
+}
+
+.circle-buttons{
+  display:flex;
+  justify-content:center;
+  gap:18px;
+}
+
+.circle-btn{
+  width:52px;
+  height:52px;
+  border-radius:50%;
+  background:#26262a;
+  border:1px solid var(--line);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--text-0);
+  text-decoration:none;
+  transition:transform .15s ease, background .15s ease;
+}
+
+.circle-btn:hover{
+  background:#323236;
+  transform:translateY(-2px);
+}
+
+.circle-btn svg{
+  width:22px;
+  height:22px;
+}
